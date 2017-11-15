@@ -1,0 +1,14 @@
+https://sbalagop.wordpress.com/2015/04/21/developing-restful-apis-using-node-js-express-and-oracle-neo/
+
+docker run \
+-u nodejs \
+-w /home/nodejs/projects/userprofiles/ \
+--add-host=db01.domain.local:192.168.99.100 \
+-p 8081:8081 \
+-v /s:/s \
+-v /s/node:/home/nodejs/projects \
+--env-file /s/node/env.list \
+--name node \
+-ti jpoot/node_oracledb:2.0 /bin/bash
+
+Test: https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?hl=en

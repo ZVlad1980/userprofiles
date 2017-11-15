@@ -1,0 +1,11 @@
+{
+  "name": "userprofiles",
+  "version": "1.0.0",
+  "description": "RESTful API using NodeJS Express Oracle",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Sivakumar Balagopalan",
+  "license": "ISC"
+}
